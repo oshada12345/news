@@ -1,0 +1,20 @@
+{
+  "name": "NADEEN-MD",
+  "version": "2.0.0",
+  "description": "NADEEN-POORNA has been designed to make things easier and fun while using WhatsApp. 👨‍💻❤️ ",
+  "main": "index.js",
+  "scripts": {
+    "start": "pm2 start index.js --deep-monitoring --attach --name nadeen",
+    "stop": "pm2 stop nadeen-md",
+    "restart": "pm2 restart nadeen-md"
+ },
+  "dependencies": {
+   "dependencies": {
+    "@dark-yasiya/news-scrap": "^1.0.3",
+    "axios": "^1.7.9",
+    "express": "^4.21.2",
+    "qrcode-terminal": "^0.12.0",
+    "venom-bot": "^5.3.0"
+  }
+  }
+}
