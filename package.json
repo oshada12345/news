@@ -4,7 +4,7 @@
   "description": "A simple API to fetch news from various sources using Express.js and a news scraper.",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js",
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "npm install && npm start"
   },
@@ -14,7 +14,7 @@
   },
   "devDependencies": {},
   "engines": {
-    "node": "14.x"  // Specify Node.js version if necessary
+    "node": "20.x"
   },
   "author": "Your Name",
   "license": "MIT",
